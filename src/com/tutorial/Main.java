@@ -19,6 +19,13 @@ public class Main {
     System.out.print("\n");
   }
 
+  //   OUTPUT
+  // * * * * *
+  // * * * * *
+  // * * * * *
+  // * * * * *
+  // * * * * *
+
   static void trianglePatter(int row) {
     for (int i = 0; i < row; i++) {
       for (int j = 0; j <= i; j++) {
@@ -28,6 +35,13 @@ public class Main {
     }
     System.out.print("\n");
   }
+
+  // OUTPUT
+  // *
+  // * *
+  // * * *
+  // * * * *
+  // * * * * *
 
   static void triangleReversePattern(int row) {
     for (int i = 0; i < row; i++) {
@@ -39,6 +53,13 @@ public class Main {
     }
     System.out.print("\n");
   }
+
+  // OUTPUT
+  // * * * * *
+  // * * * *
+  // * * *
+  // * *
+  // *
 
   static void pyramidPattern(int row) {
     for (int i = 0; i < row; i++) {
@@ -52,4 +73,11 @@ public class Main {
     }
     System.out.println();
   }
+  // OUTPUT
+  //     *
+  //    * *
+  //   * * *
+  //  * * * *
+  // * * * * *
+
 }
